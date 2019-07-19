@@ -3,7 +3,7 @@
 if test -z "$2" -o -z "$3" -o "$1" == "--help" ; then
   echo 'Usage:'
   echo "  $0 <basenameofvideo> <fps> <YoutubeURL>"
-  echo "  e.g.: for a.mp4 at 10 fps from youtu.be/JwgFS1uh05I do '$0 a 10 "https://www.youtube.com/watch?v=JwgFS1uh05I"'."
+  echo "  e.g.: for a.mp4 at 10 fps from youtu.be/JwgFS1uh05I do '$0 a 10 \"https://www.youtube.com/watch?v=JwgFS1uh05I\"'."
   exit 1
 fi
 
